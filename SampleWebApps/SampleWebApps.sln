@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPages", "RazorPages\RazorPages.csproj", "{751F1CF2-6DC5-45DD-AF00-3286CA7D48B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC.csproj", "{0E436C96-4E3B-4ECD-A77F-9F6CDFD49BF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC", "MVC\MVC.csproj", "{0E436C96-4E3B-4ECD-A77F-9F6CDFD49BF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{1A3A2D49-3283-4CF0-B866-A24571FAD691}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{1A3A2D49-3283-4CF0-B866-A24571FAD691}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServer", "BlazorServer\BlazorServer.csproj", "{5584DEFA-A753-437A-9D9E-D8D76D42EA29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorServer", "BlazorServer\BlazorServer.csproj", "{5584DEFA-A753-437A-9D9E-D8D76D42EA29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorClient", "BlazorClient\BlazorClient.csproj", "{9BFE5A51-8E80-4DB4-88B6-50259005B61F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5584DEFA-A753-437A-9D9E-D8D76D42EA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5584DEFA-A753-437A-9D9E-D8D76D42EA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5584DEFA-A753-437A-9D9E-D8D76D42EA29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BFE5A51-8E80-4DB4-88B6-50259005B61F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BFE5A51-8E80-4DB4-88B6-50259005B61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BFE5A51-8E80-4DB4-88B6-50259005B61F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BFE5A51-8E80-4DB4-88B6-50259005B61F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
